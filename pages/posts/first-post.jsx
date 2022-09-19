@@ -4,13 +4,18 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../../components/layout';
 
-
-// DEPRECATED, kept for notes
+/**
+ * @deprecated, notes from tutorial
+ */
 export default function FirstPost() {
   return (
     <Layout>
       {/* Head tag replaces html head to add head to a specific route/page */}
       <Head>
+        {/* One of the most important parts of SEO. A description tag doesn't effect google search but does highlight keywords matching. */}
+        {/* https://nextjs.org/learn/seo/rendering-and-ranking/metadata */}
+        {/* Open graph also helps for sharing on social media */}
+        {/* more info on analysis here https://developer.chrome.com/docs/lighthouse/overview/ or here https://web.dev/measure/ or here https://pagespeed.web.dev */}
         <title>First Post</title>
         <script src="https://connect.facebook.net/en_US/sdk.js" />
       </Head>

@@ -1,4 +1,13 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* tailwind selectors https://tailwindcss.com/docs/hover-focus-and-other-states#quick-reference */
+
+/* This was in the original */
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -25,3 +34,5 @@ img {
   max-width: 100%;
   display: block;
 }
+
+*/
