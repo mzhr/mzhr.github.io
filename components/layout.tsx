@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-const name = 'mzhr.';
-export const siteTitle = 'mzhr. dev notes';
+const name = 'mzhr.:dev-notes';
+export const siteTitle = 'mzhr.:dev-notes';
 
 type Props = {
   children: React.ReactNode
@@ -29,8 +29,8 @@ export default function Layout({ children, home}: Props) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        <header className='flex justify-center'>
-          <h1 className='text-4xl font-light tracking-wider pb-12'>
+        <header>
+          <h1 className='text-3xl font-thin tracking-wider pb-12'>
             <Link href="/">
                   <a>{name}</a>
             </Link>

@@ -1,3 +1,4 @@
+/*
 import { GetServerSideProps } from "next";
 
 const EXTERNAL_DATA_URL = 'https://jsonplaceholder.typicode.com/posts';
@@ -25,10 +26,6 @@ const generateSiteMap = (posts: { id: string }[]) => {
  `;
 }
 
-function SiteMap() {
-  // getServerSideProps will do the heavy lifting
-}
-
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   // We make an API call to gather the URLs for our site
   const request = await fetch(EXTERNAL_DATA_URL);
@@ -45,6 +42,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   return {
     props: {},
   };
+}
+
+*/
+
+function SiteMap() {
+  // getServerSideProps will do the heavy lifting
+  return <></>
 }
 
 export default SiteMap;

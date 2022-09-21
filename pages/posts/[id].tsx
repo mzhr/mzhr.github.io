@@ -36,7 +36,7 @@ export default function Post({ postData }: Props) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <h2 className='text-3xl font-bold pb-4'>{postData.title}</h2>
+        <h2 className='text-4xl font-bold pb-4'>{postData.title}</h2>
         <Date className="text-sm font-thin" dateString={postData.date} />
         <div className="prose font-extralight pt-0 pb-4" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
