@@ -10,9 +10,8 @@ The community seem to have moved away from timing forms to state management due 
 The more simple form libraries such as [react final form](https://final-form.org/react), [react-form-hooks](https://react-hook-form.com) and [formik](https://formik.org) are also more popular. Due to what has been rounded down by the broader developer community, this leaves us with a few simple, well used, form libraries to compare.
 
 *Note: I will also mention [TComb](https://github.com/gcanti/tcomb-form-native) is another popular one but hasn’t received much support since 2018.*
-s
-As Of 2023, There Are A Few Options
 
+As Of 2023, there are A few options;
 1.	Local or basic forms built in-house
 2.	[Formik](https://formik.org)
 3.	[React form hooks (referred to as RHF here at times)](https://react-hook-form.com)
