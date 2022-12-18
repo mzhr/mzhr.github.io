@@ -13,7 +13,7 @@ export default function Layout({ children, home}: Props) {
   return (
     <>
     <div className='flex min-w-full justify-center py-24 px-6'>
-      <div className='min-w-xs max-w-md sm:max-w-2xl'>
+      <div className='min-w-md max-w-lg sm:max-w-3xl'>
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <meta
@@ -30,7 +30,7 @@ export default function Layout({ children, home}: Props) {
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
         <header>
-          <h1 className='text-3xl font-thin tracking-wider pb-12'>
+          <h1 className='text-4xl font-thin tracking-wider pb-12'>
             <Link href="/">
                   <a>{name}</a>
             </Link>

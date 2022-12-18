@@ -3,7 +3,7 @@ title: 'Path to mastery; a road map for react native developers.'
 date: '2022-09-12'
 ---
 
-![Alt text](/images/road-to-mountain.jpg "a title")
+![Alt text](/images/road-to-mountain.jpg "Caption text")
 
 What's here is not an exact criterion of different levels of a software developer and ultimately depends on your team and levels of accountability. A senior in one team may be a mid-level in another.
 
