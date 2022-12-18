@@ -7,6 +7,15 @@
 
 /* This was in the original */
 
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* html,
 body {
   padding: 0;
@@ -19,15 +28,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 img {

@@ -55,7 +55,7 @@ export default function Home({ allPostsData }: Props) {
           <br />
           <br />
 
-          I have a strong passion for religions and <a className="font-normal" href="https://quran.com">Islam</a> in particular. You will see many of my projects in that domain in trying to help the muslim community.
+          I have a strong passion for religions and <a className="font-normal text-green-500" href="https://quran.com">Islam</a> in particular. You will see many of my projects in that domain in trying to help the muslim community.
         </p>
         <div className='flex mb-12'>
           <a className="mr-2" href="https://github.com/mzhr"><VscGithubInverted size={24} /></a>
