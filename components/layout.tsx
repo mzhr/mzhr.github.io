@@ -13,7 +13,7 @@ export default function Layout({ children, home}: Props) {
   return (
     <>
     <div className='flex min-w-full justify-center py-24 px-6'>
-      <div className='min-w-md max-w-lg sm:max-w-3xl'>
+      <div className='min-w-md w-[100%] sm:max-w-4xl'>
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <meta

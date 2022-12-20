@@ -1,5 +1,5 @@
 ---
-title: 'Using Forms in React 2023'
+title: 'React/React Native forms in 2023; a quick overview.'
 date: '2023-01-03'
 ---
 

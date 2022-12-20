@@ -1,5 +1,5 @@
 ---
-title: 'What is Expo and Should we use it in 2021?'
+title: 'What is Expo; a summary of its features for React Native.'
 date: '2021-09-30'
 ---
 
