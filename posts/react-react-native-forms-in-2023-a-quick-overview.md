@@ -3,6 +3,8 @@ title: 'React/React Native forms in 2023; a quick overview.'
 date: '2023-01-03'
 ---
 
+![Man Drawing Forms](/images/form-image.jpg "Caption text")
+
 Forms are crucial for any more complex input than simple button presses. You need validation to occur as you’re going through the form and during possible data transformation as input is given and complex submissions. Due to this there are a few ways this is done, either tied to a complex state management system such as [Redux](https://redux.js.org), or it can also handled in the component where the input data is being done, a more simpler approach.
 
 The community seem to have moved away from timing forms to state management due to performance, coupling and complexity issues that we will mention further below. Some strong evidence for this is that the author of the most popular form library that is built on a state management system, namely, [redux form](https://redux-form.com/8.3.0/), has created another library that isn’t tied to state management, namely, [react final form](https://final-form.org/react). 
